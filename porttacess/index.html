@@ -4,8 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Typebot Integrado</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    typebot-standard {
+      width: 100%;
+      height: 100vh;
+      display: block;
+    }
+  </style>
 </head>
-<body style="margin: 0; padding: 0;">
+<body>
 
   <script type="module">
     import Typebot from 'https://cdn.jsdelivr.net/npm/@typebot.io/js@0.3.86/dist/web.js';
@@ -16,7 +29,7 @@
     });
   </script>
 
-  <typebot-standard style="width: 100%; height: 600px;"></typebot-standard>
+  <typebot-standard></typebot-standard>
 
 </body>
 </html>
